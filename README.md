@@ -1,2 +1,1 @@
-# slider
-VarenykyPHP sliders package
+<!-- Silence is golden -->

@@ -1,0 +1,2 @@
+# slider
+VarenykyPHP sliders package

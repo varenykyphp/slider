@@ -17,10 +17,10 @@ return [
             'title' => 'Slider Items',
         ],
         'create' => [
-            'title' => 'Create slider items',
+            'title' => 'Create slider item',
         ],
         'edit' => [
-            'title' => 'Edit slider items',
+            'title' => 'Edit slider item',
         ],
     ]
 ];

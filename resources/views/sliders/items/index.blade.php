@@ -15,8 +15,6 @@
         <thead>
             <tr class="table-dark">
                 <th>{{ __('VarenykySlider::labels.image') }}</th>
-                <th>{{ __('VarenykySlider::labels.name') }}</th>
-                <th>{{ __('VarenykySlider::labels.content') }}</th>
                 <th width="350"></th>
             </tr>
         </thead>
@@ -24,8 +22,6 @@
             @forelse ($sliderItems as $sliderItem)
                 <tr>
                     <td><img src="{{ $sliderItem->image }}" alt="image" style="width: 150px;"></td>
-                    <td>{{ $sliderItem->slider->name }}</td>
-                    <td>{{ $sliderItem->content }}</td>
                     <td align="right">
                         <a href="{{ route( "admin.items.edit", [$sliderId, $sliderItem]) }}" class="btn btn-sm btn-dark me-1">
                         <i class="fas fa-pencil me-2"></i>{{ __('VarenykySlider::labels.edit') }}

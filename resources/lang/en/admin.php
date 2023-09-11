@@ -1,26 +1,26 @@
 <?php
 
 return [
-    'faqcategories' => [
+    'slider' => [
         'index' => [
-            'title' => 'FAQ Categories',
+            'title' => 'Sliders',
         ],
         'create' => [
-            'title' => 'Create faq categories',
+            'title' => 'Create slider',
         ],
         'edit' => [
-            'title' => 'Edit faq categories',
+            'title' => 'Edit slider',
         ],
     ],
-    'faqitems' => [
+    'sliderItems' => [
         'index' => [
-            'title' => 'FAQ Items',
+            'title' => 'Slider Items',
         ],
         'create' => [
-            'title' => 'Create faq items',
+            'title' => 'Create slider items',
         ],
         'edit' => [
-            'title' => 'Edit faq items',
+            'title' => 'Edit slider items',
         ],
     ]
 ];

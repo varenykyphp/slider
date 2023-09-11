@@ -30,4 +30,6 @@ return [
     'body'=> 'Body',
     'email' => 'Email',
     'category' => 'Category',
+    'image' => 'Image',
+    'parent' => 'Parent',
 ];
